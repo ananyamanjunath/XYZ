@@ -1,0 +1,76 @@
+.login-signup-content {
+    padding: 70px 0;
+    background-color: #F7F9FC;
+    text-align: center;
+}
+
+.login-signup-content h1 {
+    font-size: 2.5rem;
+    color: #2E3A59;
+    margin-bottom: 30px;
+}
+
+.login-signup-content input {
+    display: block;
+    max-width: 400px; 
+    width: 90%;
+    padding: 8px 15px; 
+    margin: 10px auto; 
+    border: 2px solid #BFCADC;
+    border-radius: 5px;
+    background-color: #FFFFFF;
+    font-size: 1rem;
+    transition: border-color 0.3s ease;
+}
+
+.login-signup-content input:focus {
+    border-color: #2E3A59;
+    
+}
+
+.login-signup-content button {
+    display: block;
+    margin: 20px auto;
+    padding: 12px 30px;
+    background-color: #2E3A59;
+    color: #FFFFFF;
+    border: none;
+    border-radius: 50px; 
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+    font-size: 1.1rem;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.login-signup-content button:hover {
+    background-color: #1C2A47;
+    transform: translateY(-2px); 
+}
+
+.login-signup-content p {
+    font-size: 1.2rem;
+    margin-top: 20px;
+    color: #2E3A59;
+}
+
+.login-signup-content  a {
+    display: inline-block;
+    margin-left: 10px; /* Space between the text and the button */
+    padding: 8px 20px;
+    background-color: #2E3A59;
+    color: #FFFFFF;
+    border: none;
+    border-radius: 50px;
+    text-decoration: none; /* Remove default anchor underline */
+    transition: background-color 0.3s ease, transform 0.3s ease;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+    font-weight: normal; /* Resetting the bolder text, as 'rem' was incorrectly used in your styles */
+    font-size: 1.1rem;
+}
+
+.login-signup-content  a:hover {
+    background-color: #1C2A47;
+    transform: translateY(-2px); 
+    color: #FFFFFF;
+}

@@ -1,0 +1,23 @@
+.user-profile-content {
+    padding: 50px 0;
+    background-color: #e6f7ff;
+    text-align: center;
+}
+
+.user-profile-content h1 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+}
+
+.user-profile-content p {
+    font-size: 1.2em;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.profile-picture {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin-bottom: 20px;
+}
